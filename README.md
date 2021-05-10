@@ -1,6 +1,6 @@
 # python-
 
-<pre><code class="lang-python">
+```python
 
 class Solution:
     """
@@ -21,10 +21,10 @@ class Solution:
             
         return dic[0]
 
-</pre>
+```
 
 # sort
-<pre><code class="lang-python">
+```python
 # coding = utf-8
 
 
@@ -119,4 +119,4 @@ def quickSort(arr, first=0, last=0):
     quickSort(arr, first, high-1)
     quickSort(arr, low+1, last)
     return arr
-</pre>
+```
